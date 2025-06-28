@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sjorsverhaak.github.io/sitemap.xml
