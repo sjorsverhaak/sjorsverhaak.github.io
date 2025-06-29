@@ -12,8 +12,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Doctoral Candidate in Political Theory at Cornell University.
   Thinking Earth. 
 footer_text: >
-  © 2024 Sjors Verhaak. All rights reserved. | Powered by [al-folio]
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  © 2024 Sjors Verhaak. All rights reserved.
+keywords: Sjors Verhaak, Verhaak, Political Theory, Earth # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌎 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
