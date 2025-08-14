@@ -118,10 +118,43 @@
             {% endif %}
           {% endfor %}
           {% if site.search_enabled %}
+            <!-- Remove keyboard shortcut hint near search icon -->
+            <style>
+              #search-toggle .nav-link .shortcut,
+              #search-toggle .shortcut,
+              #search-toggle .nav-link::after,
+              #search-toggle .nav-link::before {
+                content: none !important;
+                display: none !important;
+              }
+              #search-toggle .nav-link { 
+                font-size: 0 !important; /* hide any stray text like '⌘ K' */
+                line-height: 1; 
+              }
+              #search-toggle .nav-link i { 
+                font-size: 1.25rem !important; /* restore icon size */
+              }
+              #search-toggle kbd,
+              #search-toggle .kbd,
+              #search-toggle .hint,
+              #search-toggle [data-shortcut] {
+                display: none !important;
+              }
+              /* Extra kill-switch for any injected shortcut label */
+              #search-toggle::after,
+              #search-toggle::before {
+                content: none !important;
+                display: none !important;
+              }
+              /* Collapse any residual text nodes on the button itself */
+              #search-toggle { font-size: 0 !important; }
+              /* Restore icon sizing independently of collapsed text */
+              #search-toggle i { font-size: 1.25rem !important; }
+            </style>
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+                <span class="nav-link"><i class="ti ti-search"></i></span>
               </button>
             </li>
           {% endif %}

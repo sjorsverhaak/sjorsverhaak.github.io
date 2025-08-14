@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
+  image_style: "margin-top: -60px; margin-bottom: 20px;"
   more_info: >
     <p>White Hall</p>
     <p>123 Central Ave</p>
