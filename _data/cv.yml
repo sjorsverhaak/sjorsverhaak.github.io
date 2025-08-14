@@ -43,7 +43,7 @@
       year: FA22
     - title: Teaching Assistant
       institution: What Makes Us Human?
-      year: SU22, SU23, SU24, WI25, SU25
+      year: SU22-25, WI25bundle exec jekyll serve
     - title: Teaching Assistant
       institution: The U.S. Constitution
       year: SP22
