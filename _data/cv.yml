@@ -94,6 +94,12 @@
       description:
         - 'Discussant: “The Nomos of the Eaarth [Sic]: Schmitt, Latour, and the Politics of Planetary Habitability” (Dan Zimmer)'
 
+- title: Service
+  type: time_table
+  contents:
+    - title: International Relations Minor and Migration Studies Minor Coordinator
+      year: AY23-24
+
 - title: Languages
   type: list
   contents:

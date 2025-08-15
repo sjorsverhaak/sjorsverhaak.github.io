@@ -7,6 +7,45 @@ nav_order: 3
 ---
 
 <style>
+  h1.post-title {
+    text-align: center !important;
+    font-size: 2.5em !important;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+
+<style>
+  /* Center the built-in page title across common theme wrappers */
+  .page-header {
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .page-header .container,
+  .page-header .row,
+  .page-header .col,
+  .page-header .wrap {
+    width: 100%;
+    text-align: center !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .page-title,
+  h1.page-title,
+  .page-header .page-title,
+  .content .page-title,
+  .main .page-title,
+  .page-header h1 {
+    text-align: center !important;
+    margin: 0 auto !important;
+    width: 100%;
+    display: block;
+  }
+</style>
+
+<style>
   .page-description {
     font-size: 2.5rem;
   }
