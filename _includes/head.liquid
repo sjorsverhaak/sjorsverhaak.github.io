@@ -67,6 +67,7 @@
   <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 <!-- Dark Mode -->
@@ -187,3 +188,54 @@
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+
+<style>
+/* ------------------------------------------
+   Deep Green Accent — enforce across UI
+   ------------------------------------------ */
+
+/* Bootstrap primary variables (BS5 uses these at runtime) */
+:root {
+  --bs-primary: #0b3d2e;
+  --bs-primary-rgb: 11, 61, 46;
+}
+:root[data-theme='dark'] {
+  --bs-primary: #50fa7b;
+  --bs-primary-rgb: 80, 250, 123;
+}
+
+/* Links */
+ a, .post a { color: var(--link-color); }
+ a:hover { color: var(--global-hover-color); }
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--global-hover-color) !important;
+  border-color: var(--global-hover-color) !important;
+}
+.btn-outline-primary {
+  color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--bs-primary) !important;
+  color: #fff !important;
+}
+
+/* Navbar links */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus { color: var(--global-hover-color) !important; }
+.navbar .nav-link.active { color: var(--global-theme-color) !important; }
+
+/* Card titles & accents */
+.card .card-title { color: var(--global-theme-color); }
+
+/* Dropdown indicator color */
+.teaching-details > summary::after { color: var(--global-theme-color); }
+</style>

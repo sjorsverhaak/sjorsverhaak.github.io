@@ -11,7 +11,7 @@ profile:
   image_style: "margin-top: -60px; margin-bottom: 20px;"
   more_info: >
     <div style="text-align: center; font-weight: bold; font-family: Calibri, Arial, sans-serif;">
-      <p><a href="/assets/pdf/Verhaak%20CV.pdf">Curriculum Vitae</a></p>
+      <p><a href="/assets/pdf/Verhaak%20CV.pdf" style="text-decoration: underline; color: #0056b3;">Curriculum Vitae</a></p>
     </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
