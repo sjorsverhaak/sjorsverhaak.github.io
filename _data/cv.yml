@@ -4,16 +4,16 @@
     - name: Full Name
       value: Sjors Verhaak
     - name: Last Updated
-      value: July 2025
+      value: September 2025
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D., Cornell University, Department of Government
-      year: 2026 (Expected)
+      year: August 2026
       description:
         - 'Dissertation: Imaginaries of Earth'
-        - 'Committee: Patchen Markell (Chair), Alex Livingston, Jill Frank'
+        - 'Committee: Patchen Markell (Chair), Jill Frank, Alex Livingston'
         - 'Fields: Political Theory (Major), Comparative Politics (Minor)'
     - title: M.A., Cornell University, Department of Government
       year: August 2022
@@ -76,34 +76,35 @@
 - title: Conferences and Workshops
   type: time_table
   contents:
+    - title: Association for Political Theory Conference
+      year: 2025 (Scheduled)
+      description:
+        - 'Paper Presenter: “Figures of Gaia: Planetary Thinking Beyond Systems Theory”'
     - title: American Political Science Association Conference
       year: 2024
       description:
         - 'Paper Presenter: “Contestable Earth: On the Earth Community and the Rights of Nature Movement”'
     - title: Political Theory Workshop, Cornell University
-      year: 2024
+      year: 2020, 2022, 2024
       description:
-        - 'Discussant: “Cis Goes Mainstream” (Perry Zurn)'
-    - title: Political Theory Workshop, Cornell University
-      year: 2022
-      description:
-        - 'Discussant: “Radical Democratic Theory of Expertise in the Context of the Anthropocene” (Ari-Elmeri Hyvönen)'
-        - 'Discussant: “With or against the State? Feminism, Prison Abolition, and the Pursuit of Justice” (Anna Terwiel)'
-    - title: Political Theory Workshop, Cornell University
-      year: 2020
-      description:
-        - 'Discussant: “The Nomos of the Eaarth [Sic]: Schmitt, Latour, and the Politics of Planetary Habitability” (Dan Zimmer)'
+        - 'Discussant: “Cis Goes Mainstream” (Perry Zurn, 2024)'
+        - 'Discussant: “Radical Democratic Theory of Expertise in the Context of the Anthropocene” (Ari-Elmeri Hyvönen, 2022)'
+        - 'Discussant: “With or against the State? Feminism, Prison Abolition, and the Pursuit of Justice” (Anna Terwiel, 2022)'
+        - 'Discussant: “The Nomos of the Eaarth [Sic]: Schmitt, Latour, and the Politics of Planetary Habitability” (Dan Zimmer, 2020)'
+      
 
 - title: Service
   type: time_table
   contents:
     - title: International Relations Minor and Migration Studies Minor Coordinator
       year: AY23-24
+      description:
+        - 'Coordinated advising and administrative support for undergraduate minors in International Relations and Migration Studies'
+        - 'Assisted with curriculum planning, course scheduling, and student outreach'
+        - 'Organized minor-related events and facilitated communication between faculty and administrative staff'
 
 - title: Languages
   type: list
   contents:
     - English (native speaker)
-    - German (academic reading proficiency)
-    - Dutch (academic reading proficiency)
-    - Latin (academic reading proficiency)
+    - German, Dutch, Latin (academic reading proficiency)
