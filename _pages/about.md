@@ -35,6 +35,19 @@ latest_posts:
 ---
 
 <style>
+  /* Mobile: move hero name above the profile image */
+  @media (max-width: 576px) {
+    .about-fade:first-child {
+      order: -1;
+    }
+    .profile {
+      text-align: center;
+    }
+    .about-hero-name {
+      font-size: 2.2rem;
+    }
+  }
+
   /* Hide default theme h1 title — replaced by hero below */
   .post-header h1.post-title { display: none; }
 
@@ -167,4 +180,3 @@ latest_posts:
 <div class="about-fade" style="font-family: 'EB Garamond', Georgia, serif; font-size: 1em; color: #2a2218;">
   For more information please visit my <a href="https://government.cornell.edu/sjors-verhaak" style="color: #2d6a4f; border-bottom: 1px solid #52b788; text-decoration: none;">Cornell University profile</a>.
 </div>
-
