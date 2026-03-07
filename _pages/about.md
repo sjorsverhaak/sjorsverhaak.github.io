@@ -35,19 +35,6 @@ latest_posts:
 ---
 
 <style>
-  /* Mobile: move hero name above the profile image */
-  @media (max-width: 576px) {
-    .about-fade:first-child {
-      order: -1;
-    }
-    .profile {
-      text-align: center;
-    }
-    .about-hero-name {
-      font-size: 2.2rem;
-    }
-  }
-
   /* Hide default theme h1 title — replaced by hero below */
   .post-header h1.post-title { display: none; }
 
@@ -151,6 +138,7 @@ latest_posts:
     user-select: none;
   }
 </style>
+
 
 <div class="about-fade">
 <p class="about-hero-name"><span>Sjors</span> Verhaak</p>
