@@ -9,7 +9,7 @@ profile:
   align: right
   image: headshot.jpg
   image_circular: true
-  image_style: "margin-top: -60px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 3px solid #d0e8dc;"
+  image_style: "margin-top: -60px; margin-bottom: 20px; box-shadow: 0 6px 24px rgba(27,67,50,0.12); border: 3px solid #52b788; outline: 6px solid #d0e8dc; outline-offset: -3px;"
   more_info: >
     <div style="text-align: center; margin-top: 0.75em; position: relative; z-index: 10;">
       <a href="/assets/pdf/Verhaak%20CV.pdf" title="Download Curriculum Vitae"
@@ -153,7 +153,7 @@ latest_posts:
 </div>
 
 <div class="about-fade" style="font-family: 'EB Garamond', Georgia, serif; font-size: 1.08em; line-height: 1.85; color: #2a2218;">
-  <p class="about-bio-first">I am a doctoral candidate in political thought whose research examines the ecological crisis from the standpoint of political theory. More specifically, my dissertation, <em>Imaginaries of Earth</em>, investigates the role of Earth—in its narrative, metaphoric, and imaginative dimensions—not only in environmental politics, but in planetary politics writ large.</p>
+  <p class="about-bio-first">I am a doctoral candidate in political thought whose research examines the ecological crisis from the standpoint of political theory. More specifically, my dissertation, <em>Imaginaries of Earth</em> (defense: July 2026), investigates the role of Earth—in its narrative, metaphoric, and imaginative dimensions—not only in environmental politics, but in planetary politics writ large.</p>
 
   <p style="margin-top: 1em;">It does so through a series of interrelated investigations: the emergence of the metaphor of Spaceship Earth in the 1960s and its diffusion into the planetary imaginary; the theoretical underpinnings of the Rights of Nature movement, with an emphasis on the Earth community as an ontological community of being; and the discursive figure of Gaia in the environmental humanities and Gaia theory.</p>
 
@@ -167,3 +167,4 @@ latest_posts:
 <div class="about-fade" style="font-family: 'EB Garamond', Georgia, serif; font-size: 1em; color: #2a2218;">
   For more information please visit my <a href="https://government.cornell.edu/sjors-verhaak" style="color: #2d6a4f; border-bottom: 1px solid #52b788; text-decoration: none;">Cornell University profile</a>.
 </div>
+

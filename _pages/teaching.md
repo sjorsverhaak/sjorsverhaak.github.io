@@ -7,6 +7,9 @@ nav_order: 3
 ---
 
 <style>
+  /* Hide default page title */
+  .post-header h1.post-title { display: none; }
+
   /* Fade-in on load */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(14px); }
@@ -142,6 +145,7 @@ nav_order: 3
 
 <div class="teaching-wrapper">
 
+  <span class="teaching-label">Teaching</span>
   <h1 class="teaching-heading">My Courses</h1>
   <p class="teaching-intro">First-year writing seminars in political theory, exploring the intersections of politics, nature, and democracy.</p>
 
