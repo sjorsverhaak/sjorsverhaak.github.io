@@ -4,13 +4,13 @@
     - name: Full Name
       value: Sjors Verhaak
     - name: Last Updated
-      value: September 2025
+      value: February 2026
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D., Cornell University, Department of Government
-      year: August 2026
+      year: July 2026
       description:
         - 'Dissertation: Imaginaries of Earth'
         - 'Committee: Patchen Markell (Chair), Jill Frank, Alex Livingston'
@@ -18,22 +18,21 @@
     - title: M.A., Cornell University, Department of Government
       year: August 2022
       description:
-        - 'Prospectus: “Nature and Personhood”'
         - 'GPA: 3.90'
     - title: B.A., The Ohio State University, Department of Political Science
       year: May 2019
       description:
-        - 'Honors Research Thesis: “Normative Demonstration in Constitutional Democracy: An Expression of Political Love-Recognition”'
+        - 'Honors Research Thesis: "Normative Demonstration in Constitutional Democracy: An Expression of Political Love-Recognition"'
         - 'GPA: 3.852'
 
 - title: Teaching Experience
   type: time_table
   contents:
     - title: Graduate Student Instructor
-      institution: "FWS: Thinking Earth"
+      institution: 'First-Year Writing Seminar: Thinking Earth'
       year: FA25
     - title: Graduate Student Instructor
-      institution: "FWS: Politics and Nature"
+      institution: 'FWS: Politics and Nature'
       year: SP23
     - title: Graduate Lecturer
       institution: What Makes Us Human?
@@ -43,7 +42,7 @@
       year: FA22
     - title: Teaching Assistant
       institution: What Makes Us Human?
-      year: SU22-25, WI25
+      year: SU22-25, WI25-26
     - title: Teaching Assistant
       institution: The U.S. Constitution
       year: SP22
@@ -57,7 +56,6 @@
       institution: Introduction to American Government and Politics
       year: FA20
 
-
 - title: Awards, Grants, and Fellowships
   type: time_table
   contents:
@@ -69,29 +67,37 @@
         - Sage Fellowship (Cornell)
     - year: 2019
       items:
-        - Pi Sigma Alpha Member (Political Science Honors Society)
+        - Pi Sigma Alpha Member (Political Science Honor Society)
     - year: 2017-2019
       items:
-        - Dean’s List (OSU)
+        - Dean's List (OSU)
+
 - title: Conferences and Workshops
   type: time_table
   contents:
-    - title: Association for Political Theory Conference
-      year: 2025 (Scheduled)
+    - title: Western Political Science Association Annual Meeting
+      year: 2026 (Scheduled)
       description:
-        - 'Paper Presenter: “Figures of Gaia: Planetary Thinking Beyond Systems Theory”'
-    - title: American Political Science Association Conference
+        - 'Paper Presenter: "Towards a Democratic Theory of Confluential Earth Politics" (April 2026)'
+    - title: Association for Political Theory Conference
+      year: 2025
+      description:
+        - 'Paper Presenter: "Figures of Gaia: Planetary Thinking Beyond Systems Theory" (Chicago, November 2025)'
+    - title: Cornell Faith & Environment Collective
+      year: 2025
+      description:
+        - 'Invited Presenter: "What makes a good environmentalist from a political perspective?" (Ithaca, 2025)'
+    - title: American Political Science Association Annual Meeting
       year: 2024
       description:
-        - 'Paper Presenter: “Contestable Earth: On the Earth Community and the Rights of Nature Movement”'
+        - 'Paper Presenter: "Contestable Earth: On the Earth Community and the Rights of Nature Movement" (Philadelphia, 2024)'
     - title: Political Theory Workshop, Cornell University
       year: 2020, 2022, 2024
       description:
-        - 'Discussant: “Cis Goes Mainstream” (Perry Zurn, 2024)'
-        - 'Discussant: “Radical Democratic Theory of Expertise in the Context of the Anthropocene” (Ari-Elmeri Hyvönen, 2022)'
-        - 'Discussant: “With or against the State? Feminism, Prison Abolition, and the Pursuit of Justice” (Anna Terwiel, 2022)'
-        - 'Discussant: “The Nomos of the Eaarth [Sic]: Schmitt, Latour, and the Politics of Planetary Habitability” (Dan Zimmer, 2020)'
-      
+        - 'Discussant: "Cis Goes Mainstream" (Perry Zurn, 2024)'
+        - 'Discussant: "Radical Democratic Theory of Expertise in the Context of the Anthropocene" (Ari-Elmeri Hyvönen, 2022)'
+        - 'Discussant: "With or against the State? Feminism, Prison Abolition, and the Pursuit of Justice" (Anna Terwiel, 2022)'
+        - 'Discussant: "The Nomos of the Eaarth [Sic]: Schmitt, Latour, and the Politics of Planetary Habitability" (Dan Zimmer, 2020)'
 
 - title: Service
   type: time_table
@@ -106,5 +112,5 @@
 - title: Languages
   type: list
   contents:
-    - English (native speaker)
-    - German, Dutch, Latin (academic reading proficiency)
+    - English (native)
+    - German, Dutch, and Latin (academic reading proficiency)

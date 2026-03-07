@@ -18,7 +18,7 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$purple-color: #2d6a4f !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
@@ -50,3 +50,20 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+
+// -----------------------------------------------------------------------------
+// Emerald Academic Theme
+// -----------------------------------------------------------------------------
+
+$emerald-deep:   #1b4332;
+$emerald-mid:    #2d6a4f;
+$emerald-soft:   #52b788;
+$emerald-pale:   #d0e8dc;
+
+// Override al-folio's theme & hover colors
+$theme-color:          $emerald-mid;
+$theme-color-dark:     $emerald-deep;
+
+// Fonts
+$font-serif:    'EB Garamond', Georgia, serif;
+$font-display:  'Cormorant Garamond', Georgia, serif;

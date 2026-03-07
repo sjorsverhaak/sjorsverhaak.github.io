@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 2
-cv_pdf: Verhaak CV.pdf # you can also use external links here
-description: Below is my Curriculum Vitae. A .pdf can be downloaded by clicking the icon in the top right.
+cv_pdf: Verhaak CV.pdf
+description: Below is my Curriculum Vitae. A pdf can be downloaded by clicking the icon in the top right.
 toc:
   sidebar: left
 ---

@@ -1,6 +1,107 @@
 /*****************************
- * CV shared styles
+ * CV shared styles — Emerald Academic
  *****************************/
+
+// --- Variables ---
+$em-deep:   #1b4332;
+$em-mid:    #2d6a4f;
+$em-soft:   #52b788;
+$em-pale:   #d0e8dc;
+$font-serif: 'EB Garamond', Georgia, serif;
+$font-disp:  'Cormorant Garamond', Georgia, serif;
+
+// --- Fade-in animation ---
+@keyframes cvFadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+div.cv .card {
+  opacity: 0;
+  animation: cvFadeUp 0.6s ease forwards;
+}
+
+// Stagger each card
+@for $i from 1 through 10 {
+  div.cv .card:nth-child(#{$i}) {
+    animation-delay: #{$i * 0.1}s;
+  }
+}
+
+// --- CV page title & PDF button ---
+.post-title {
+  font-family: $font-disp !important;
+  font-weight: 300 !important;
+  font-size: 2.4rem !important;
+  color: $em-deep !important;
+  letter-spacing: 0.04em;
+
+  // PDF download icon — restyled
+  a.float-right {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.5em 1.3em;
+    border: 1.5px solid $em-mid;
+    border-radius: 2px;
+    color: $em-mid !important;
+    font-family: $font-disp;
+    font-size: 1.05rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+    vertical-align: middle;
+    margin-top: 0.3em;
+
+    &:hover {
+      background: $em-mid;
+      color: #fff !important;
+    }
+
+    i { font-size: 1.3rem; }
+  }
+}
+
+.post-description {
+  font-family: $font-serif !important;
+  font-style: italic;
+  color: $em-mid;
+  font-size: 1em;
+  margin-top: 0.2em;
+}
+
+// --- CV section cards — cleaner, more open ---
+div.cv .card {
+  border: none !important;
+  border-top: 1px solid $em-pale !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 1.5rem 0 !important;
+  margin-top: 0 !important;
+
+  // Section header with ruled divider
+  h3.card-title {
+    font-family: $font-disp !important;
+    font-weight: 600 !important;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.18em !important;
+    text-transform: uppercase !important;
+    color: $em-soft !important;
+    margin-bottom: 1.2rem !important;
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+
+    &::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, $em-pale, transparent);
+    }
+  }
+}
 
 div.container-link-button {
   margin-right: 0.5rem;
@@ -8,34 +109,36 @@ div.container-link-button {
 
 table.table-cv {
   background-color: transparent !important;
+  font-family: $font-serif;
 
-  td,
-  th {
+  td, th {
     padding: 1px;
   }
 }
 
+// --- CV link buttons ---
 a.btncv {
-  color: var(--global-text-color) !important;
-  border: 1px solid var(--global-text-color) !important;
-  border-radius: 0.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  font-family: $font-disp !important;
+  color: $em-mid !important;
+  border: 1px solid $em-mid !important;
+  border-radius: 2px;
+  padding: 0.2rem 0.8rem;
   text-decoration: none;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
+  letter-spacing: 0.08em;
   white-space: nowrap;
-}
+  transition: background 0.2s ease, color 0.2s ease;
 
-a.btncv:hover {
-  color: var(--global-theme-color) !important;
-  border-color: var(--global-theme-color) !important;
-  text-decoration: none !important;
+  &:hover {
+    background: $em-mid !important;
+    color: #fff !important;
+    border-color: $em-mid !important;
+    text-decoration: none !important;
+  }
 }
 
 /*****************************
@@ -43,33 +146,38 @@ a.btncv:hover {
  *****************************/
 
 p.location {
-  font-size: 0.7rem;
+  font-family: $font-serif;
+  font-size: 0.78rem;
   white-space: nowrap;
+  color: #5a5a5a;
 }
 
 i.iconlocation {
-  color: var(--global-theme-color);
+  color: $em-soft;
   font-size: 0.8rem;
 }
 
 i.iconinstitution {
-  color: var(--global-theme-color);
+  color: $em-soft;
   font-size: 0.95rem;
   margin-right: 0.3rem;
 }
 
 i.icondepartment {
-  color: var(--global-theme-color);
+  color: $em-soft;
   font-size: 0.8rem;
   margin-right: 0.3rem;
 }
 
 table.institution {
   margin-bottom: 1rem;
+  font-family: $font-serif;
 }
 
 td.department {
-  font-size: 0.8rem;
+  font-family: $font-serif;
+  font-size: 0.85rem;
+  color: #5a5a5a;
 }
 
 div.container-links {
@@ -92,6 +200,7 @@ div.container-pdf {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  font-family: $font-serif;
 }
 
 /*****************************
@@ -115,19 +224,21 @@ div.list-group {
 }
 
 td.list-group-category {
-  color: var(--global-theme-color);
+  color: $em-mid;
+  font-family: $font-disp;
   margin-bottom: 0.5rem;
 }
 
 td.list-group-category-icon {
   font-size: 0.8rem;
-  color: var(--global-theme-color);
+  color: $em-soft;
   width: 1.4rem;
   padding-right: 0.4rem;
 }
 
 td.list-group-name {
-  font-size: 0.8rem;
+  font-family: $font-serif;
+  font-size: 0.85rem;
 }
 
 td.list-group-level {
@@ -136,13 +247,13 @@ td.list-group-level {
 }
 
 td.list-group-school {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   padding-left: 0.5rem;
   text-align: center;
 }
 
 p.list-group-time {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   padding-left: 0.5rem;
 }
 
@@ -151,7 +262,7 @@ td.list-group-link {
 }
 
 /*****************************
- * CV TOC styles
+ * CV TOC / Timeline styles
  *****************************/
 
 a.anchor {
@@ -162,8 +273,8 @@ a.anchor {
 }
 
 ul.timeline {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 ul.timeline li {
@@ -171,23 +282,16 @@ ul.timeline li {
   min-height: 2.2rem;
   color: var(--global-text-color);
   list-style-position: inside;
+  font-family: $font-serif;
+  font-size: 1.05em;
 }
 
-span.badge-toc {
-  color: var(--global-bg-color);
-  background-color: var(--global-theme-color);
-  border-radius: 0.125rem;
-  padding: 0.125rem 0.5rem 0.125rem 0.5rem;
-  font-weight: 700 !important;
-  display: inline-block;
-  inline-size: fit-content;
-}
-
+// Emerald timeline vertical line
 ul.timeline li::before {
   content: "";
   min-height: 2.5rem;
-  width: 1px;
-  background: var(--global-text-color);
+  width: 2px;
+  background: $em-pale;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -195,26 +299,17 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
-/*ul.timeline::before {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: 0.4rem;
-     color: var(--global-text-color);
+// Emerald year badges
+span.badge-toc {
+  font-family: $font-disp;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background-color: $em-mid;
+  border-radius: 2px;
+  padding: 0.15rem 0.55rem;
+  font-weight: 600 !important;
+  display: inline-block;
+  inline-size: fit-content;
+  text-transform: uppercase;
 }
- ul.timeline::after {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: -1rem;
-     color: var(--global-text-color);
-}
-*/

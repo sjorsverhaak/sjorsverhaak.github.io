@@ -189,53 +189,122 @@
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap">
+
 <style>
 /* ------------------------------------------
-   Deep Green Accent — enforce across UI
+   Emerald Academic Theme
    ------------------------------------------ */
 
-/* Bootstrap primary variables (BS5 uses these at runtime) */
-:root {
-  --bs-primary: #0b3d2e;
-  --bs-primary-rgb: 11, 61, 46;
-}
-:root[data-theme='dark'] {
-  --bs-primary: #50fa7b;
-  --bs-primary-rgb: 80, 250, 123;
-}
-
-/* Links */
- a, .post a { color: var(--link-color); }
- a:hover { color: var(--global-hover-color); }
-
-/* Buttons */
-.btn-primary {
-  background-color: var(--bs-primary) !important;
-  border-color: var(--bs-primary) !important;
-}
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: var(--global-hover-color) !important;
-  border-color: var(--global-hover-color) !important;
-}
-.btn-outline-primary {
-  color: var(--bs-primary) !important;
-  border-color: var(--bs-primary) !important;
-}
-.btn-outline-primary:hover,
-.btn-outline-primary:focus {
-  background-color: var(--bs-primary) !important;
-  color: #fff !important;
+/* Set al-folio's own theme color variables to emerald */
+html {
+  --global-theme-color:       #2d6a4f;
+  --global-hover-color:       #1b4332;
+  --global-hover-text-color:  #ffffff;
+  --link-color:               #2d6a4f;
+  --global-text-color:        #2a2218;
+  --global-bg-color:          #ffffff;
+  --navbar-bg-color:          #ffffff;
+  --bs-primary:               #2d6a4f;
+  --bs-primary-rgb:           45, 106, 79;
 }
 
-/* Navbar links */
-.navbar .nav-link:hover,
-.navbar .nav-link:focus { color: var(--global-hover-color) !important; }
-.navbar .nav-link.active { color: var(--global-theme-color) !important; }
+/* Typography */
+body {
+  font-family: 'EB Garamond', Georgia, serif !important;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
 
-/* Card titles & accents */
-.card .card-title { color: var(--global-theme-color); }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-weight: 400;
+  color: #1b4332;
+}
 
-/* Dropdown indicator color */
-.teaching-details > summary::after { color: var(--global-theme-color); }
+/* CV sidebar & nav-pills — fix purple active state */
+.nav-pills .nav-link { color: #2a2218 !important; background: transparent !important; }
+.nav-pills .nav-link:hover { color: #2d6a4f !important; background: transparent !important; }
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #2d6a4f !important;
+  background: transparent !important;
+  border-left-color: #2d6a4f !important;
+  font-weight: 500;
+}
+
+/* ── Emerald top border on navbar ── */
+nav#navbar {
+  border-top: 3px solid #2d6a4f;
+}
+
+/* ── Nav link slide underline ── */
+nav#navbar .nav-link {
+  position: relative;
+  padding-bottom: 2px;
+}
+nav#navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: #52b788;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+nav#navbar .nav-link:hover::after,
+nav#navbar .nav-item.active .nav-link::after {
+  transform: scaleX(1);
+}
+
+/* ── Paper/grain texture background ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+/* ── Styled blog blockquotes ── */
+blockquote, .post blockquote {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #2d6a4f;
+  border-left: 3px solid #52b788 !important;
+  border-right: none !important;
+  background: none !important;
+  padding: 0.5em 0 0.5em 1.2em !important;
+  margin: 1.5em 0 !important;
+  line-height: 1.7;
+}
+blockquote p { color: #2d6a4f; margin: 0; }
+
+/* ── Latest post card styling ── */
+.post-list .card,
+#latest-posts .card {
+  border: 1px solid #d0e8dc !important;
+  border-radius: 3px !important;
+  box-shadow: 0 2px 16px rgba(27, 67, 50, 0.07) !important;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.post-list .card:hover,
+#latest-posts .card:hover {
+  box-shadow: 0 6px 24px rgba(27, 67, 50, 0.13) !important;
+  transform: translateY(-2px);
+}
+.post-list .card .card-title,
+#latest-posts .card .card-title {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  color: #1b4332;
+  font-weight: 400;
+}
 </style>
