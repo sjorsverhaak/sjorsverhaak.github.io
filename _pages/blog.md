@@ -13,7 +13,7 @@ pagination:
   sort_reverse: true
   trail:
     before: 1
-    after: 3
+    after: 5
 ---
 
 <style>

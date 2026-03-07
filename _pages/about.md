@@ -210,11 +210,11 @@ latest_posts:
 </div>
 
 <div class="about-fade">
-<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.28em; font-weight: 400; font-style: italic; color: #2d6a4f; border-left: 3px solid #52b788; padding-left: 0.85em; line-height: 1.5; margin-bottom: 1.6em;">Doctoral candidate at Cornell University specializing in democratic thought and environmental political theory.</p>
+<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.28em; font-weight: 400; font-style: italic; color: #2d6a4f; border-left: 3px solid #52b788; padding-left: 0.85em; line-height: 1.5; margin-bottom: 1.6em;">Doctoral candidate at Cornell University specializing in environmental political theory and democratic thought.</p>
 </div>
 
 <div class="about-fade" style="font-family: 'EB Garamond', Georgia, serif; font-size: 1.08em; line-height: 1.85; color: #2a2218;">
-  <p class="about-bio-first">I am a doctoral candidate in political thought whose research examines the ecological crisis from the standpoint of political theory. More specifically, my dissertation, <em>Imaginaries of Earth</em> (defense: July 2026), investigates the role of Earth—in its narrative, metaphoric, and imaginative dimensions—not only in environmental politics, but in planetary politics writ large.</p>
+  <p class="about-bio-first">I am a doctoral candidate in political thought whose research examines the ecological crisis from the standpoint of political theory. More specifically, my dissertation, <em>Imaginaries of Earth</em>, investigates the role of Earth—in its narrative, metaphoric, and imaginative dimensions—not only in environmental politics, but in planetary politics writ large.</p>
 
   <p style="margin-top: 1em;">It does so through a series of interrelated investigations: the emergence of the metaphor of Spaceship Earth in the 1960s and its diffusion into the planetary imaginary; the theoretical underpinnings of the Rights of Nature movement, with an emphasis on the Earth community as an ontological community of being; and the discursive figure of Gaia in the environmental humanities and Gaia theory.</p>
 
