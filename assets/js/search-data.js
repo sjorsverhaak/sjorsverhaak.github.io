@@ -10,50 +10,24 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-cv",
-          title: "cv",
-          description: "Below is my Curriculum Vitae. A .pdf can be downloaded by clicking the icon in the top right.",
+          title: "CV",
+          description: "Below is my Curriculum Vitae. A pdf can be downloaded by clicking the icon in the top right.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-posts",
-          title: "posts",
+          title: "Posts",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+        },];
