@@ -307,4 +307,27 @@ blockquote p { color: #2d6a4f; margin: 0; }
   color: #1b4332;
   font-weight: 400;
 }
+
+/* ── Page transition ── */
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+body {
+  animation: pageIn 0.4s ease forwards;
+}
 </style>
+
+<script>
+  // Fade out on navigation
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (!link) return;
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('#') || href.startsWith('mailto') || href.startsWith('http') || link.target === '_blank') return;
+    e.preventDefault();
+    document.body.style.transition = 'opacity 0.25s ease';
+    document.body.style.opacity = '0';
+    setTimeout(() => { window.location.href = href; }, 250);
+  });
+</script>

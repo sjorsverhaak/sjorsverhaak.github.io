@@ -137,6 +137,66 @@ latest_posts:
     letter-spacing: 0.2em;
     user-select: none;
   }
+
+  /* Latest posts section */
+  .post article h2 a[href*="blog"] {
+    font-family: 'Cormorant Garamond', Georgia, serif !important;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #52b788 !important;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    margin-bottom: 1rem;
+  }
+  .post article h2 {
+    margin-top: 2.5rem;
+  }
+  .post article h2 a[href*="blog"]::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, #d0e8dc, transparent);
+  }
+  /* Style the post rows in latest posts */
+  .post article table {
+    border: none;
+    width: 100%;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.05em;
+    margin-top: 0.5rem;
+  }
+  .post article table td {
+    border: none;
+    padding: 0.5rem 0;
+    color: #2a2218;
+    vertical-align: top;
+  }
+  .post article table td:first-child {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 0.8em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #52b788;
+    white-space: nowrap;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+  }
+  .post article table td a {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 1.25em;
+    color: #1b4332;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+  .post article table td a:hover {
+    color: #2d6a4f;
+    border-bottom-color: #52b788;
+  }
 </style>
 
 
