@@ -263,7 +263,7 @@ nav_order: 2
 <div class="presentation-item">
   <p class="presentation-title">"Figures of Gaia: Planetary Thinking Beyond Systems Theory"</p>
   <p class="presentation-venue">Association for Political Theory Conference</p>
-  <p class="presentation-meta"><span class="presentation-type">Paper</span> Chicago &nbsp;·&nbsp; November 2025</p>
+  <p class="presentation-meta"><span class="presentation-type">Paper</span> Chicago &nbsp;·&nbsp; 2025</p>
 </div>
 
 <div class="presentation-item">
