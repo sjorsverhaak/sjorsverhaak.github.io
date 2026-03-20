@@ -225,6 +225,10 @@ latest_posts:
   <span class="about-divider-glyph">✦</span>
 </div>
 
-<div class="about-fade" style="font-family: 'EB Garamond', Georgia, serif; font-size: 1em; color: #2a2218;">
+<div class="about-fade" style="font-family: 'EB Garamond', Georgia, serif; font-size: 1em; color: #2a2218; text-align: center;">
   For more information please visit my <a href="https://government.cornell.edu/sjors-verhaak" style="color: #2d6a4f; border-bottom: 1px solid #52b788; text-decoration: none;">Cornell University profile</a>.
+</div>
+
+<div class="about-fade" style="margin-top: 2rem; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.78em; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #aac9b8; text-align: center;">
+  Last updated: March 2026
 </div>
