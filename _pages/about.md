@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Sjors Verhaak
-description: "Sjors Verhaak is a political theorist and doctoral candidate at Cornell University. His research explores ecological crisis, Earth metaphors, and democratic theory."
+description: "Sjors Verhaak is a political theorist who recently received his PhD from Cornell University. His research explores ecological crisis, Earth metaphors, and democratic theory."
 permalink: /
 subtitle:
 
@@ -202,7 +202,7 @@ latest_posts:
 
 <div class="about-fade">
 <p class="about-hero-name"><span>Sjors</span> Verhaak</p>
-<p class="about-hero-sub">PhD Candidate in Political Theory &nbsp;·&nbsp; Cornell University</p>
+<p class="about-hero-sub">PhD in Political Theory &nbsp;·&nbsp; Cornell University</p>
 </div>
 
 <div class="about-fade">
@@ -210,15 +210,15 @@ latest_posts:
 </div>
 
 <div class="about-fade">
-<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.28em; font-weight: 400; font-style: italic; color: #2d6a4f; border-left: 3px solid #52b788; padding-left: 0.85em; line-height: 1.5; margin-bottom: 1.6em;">Doctoral candidate at Cornell University specializing in environmental political theory and democratic thought.</p>
+<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.28em; font-weight: 400; font-style: italic; color: #2d6a4f; border-left: 3px solid #52b788; padding-left: 0.85em; line-height: 1.5; margin-bottom: 1.6em;">Researcher specializing in environmental political theory and democratic thought.</p>
 </div>
 
 <div class="about-fade" style="font-family: 'EB Garamond', Georgia, serif; font-size: 1.08em; line-height: 1.85; color: #2a2218;">
-  <p class="about-bio-first">I am a doctoral candidate in political thought whose research examines the ecological crisis from the standpoint of political theory. More specifically, my dissertation, <em>Imaginaries of Earth</em>, investigates the role of Earth—in its narrative, metaphoric, and imaginative dimensions—not only in environmental politics, but in planetary politics writ large.</p>
+  <p class="about-bio-first">I am a political theorist whose research examines the ecological crisis from the standpoint of political theory. I received my PhD from Cornell University in 2026. My dissertation, <em>Imaginaries of Earth</em>, investigates the relationship of humans to their planet through the framework of Earth imaginaries: the implicit, shared background understandings of Earth, carried in images, metaphors, and stories, that make sense of practices such as Earth photography, climate science and engineering, and the extension of rights to nature.</p>
 
-  <p style="margin-top: 1em;">It does so through a series of interrelated investigations: the emergence of the metaphor of Spaceship Earth in the 1960s and its diffusion into the planetary imaginary; the theoretical underpinnings of the Rights of Nature movement, with an emphasis on the Earth community as an ontological community of being; and the discursive figure of Gaia in the environmental humanities and Gaia theory.</p>
+  <p style="margin-top: 1em;">It traces the encounter between two opposing imaginaries: a dominant planetary imaginary of human exceptionalism, mastery, and stewardship, premised on the disavowal of our constitutive earthliness; and the Earth community imaginary sustained by the transnational Rights of Nature movement, which avows that earthliness through declaration. Their philosophical encounter is investigated through the problem space of Gaia.</p>
 
-  <p style="margin-top: 1em;">In weaving these strands together, guided by a structuring focus on the conceptual role of Earth, I aim to cultivate a distinctive multi-species and post-anthropocentric approach to contemporary democratic theorizing, while reorienting political theory to the imaginaries that both sustain—and are sustained by—politics. My next project, <em>Democracy at Earth's Edge</em>, extends this research by examining how Earth imaginaries are negotiated between global frameworks of climate governance and local democratic practices.</p>
+  <p style="margin-top: 1em;">Rather than adjudicating between these imaginaries, I attend to their meeting at sites of confluence, where confluential politics can generate more-than-human collective political subjects whose emplaced practices refigure the human-planet relation. In doing so, I aim to cultivate a distinctive multi-species and post-anthropocentric approach to contemporary democratic theorizing, while reorienting political theory to the imaginaries that both sustain—and are sustained by—politics. My next project, <em>Democracy at Earth's Edge</em>, extends this research by examining how Earth imaginaries are negotiated between global frameworks of climate governance and local democratic practices.</p>
 </div>
 
 <div class="about-fade about-divider">
@@ -230,5 +230,5 @@ latest_posts:
 </div>
 
 <div class="about-fade" style="margin-top: 2rem; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.78em; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #aac9b8; text-align: center;">
-  Last updated: March 2026
+  Last updated: September 2026
 </div>
